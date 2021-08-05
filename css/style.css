@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #FFD24B;
+  padding: 0 2rem;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.card-produtos {
+  background-color: rgb(150, 214, 216);
+  padding: 1rem;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  justify-content: center;
+}
+
+.margin {
+  padding-top: 2rem;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.contato{
+  padding: 2rem;
+  background: #FFD24B;
+}
